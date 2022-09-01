@@ -1,0 +1,83 @@
+
+(rules PCB Phoenix612
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1010)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    "Net-(R9-Pad2)" GND "Net-(C1-Pad1)" "ANT_IN" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" +5V
+    "Net-(R4-Pad1)" "Net-(R5-Pad1)" "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(R8-Pad2)" "Net-(47u1-Pad1)"
+    "Net-(47u1-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad1)" "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C11-Pad2)" "Net-(C14-Pad1)" "Net-(C14-Pad2)"
+    "Net-(C15-Pad1)" "Net-(C15-Pad2)" "Net-(C16-Pad1)" "Net-(C17-Pad1)" "Net-(C18-Pad1)" "Net-(C19-Pad1)" "Net-(C19-Pad2)" "Net-(C20-Pad1)"
+    "Net-(C20-Pad2)" "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" "Net-(C23-Pad2)" "Net-(C26-Pad1)" "Net-(C26-Pad2)" "Net-(C27-Pad1)"
+    "unconnected-(K1-Pad6)" IFMICIN "unconnected-(K1-Pad9)" IFRFIN "unconnected-(K2-Pad6)" "unconnected-(K2-Pad8)" "unconnected-(K2-Pad9)" "unconnected-(K2-Pad11)"
+    TX12V "Net-(L1-Pad2)" "Net-(L2-Pad2)" "Net-(T1-Pad4)" +8V "unconnected-(U3-Pad4)" "unconnected-(U3-Pad7)" "unconnected-(U4-Pad4)"
+    "unconnected-(U4-Pad7)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
