@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>C1</string>
+    </void>
+    <void property="value">
+     <string>100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>C2</string>
+    </void>
+    <void property="value">
+     <string>100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>C3</string>
+    </void>
+    <void property="value">
+     <string>100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>C4</string>
+    </void>
+    <void property="value">
+     <string>100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>C5</string>
+    </void>
+    <void property="value">
+     <string>100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y1Cm</string>
+    </void>
+    <void property="value">
+     <string>22.90</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y1Lm</string>
+    </void>
+    <void property="value">
+     <string>7.69</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y1Rm</string>
+    </void>
+    <void property="value">
+     <string>8.32</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y1Cc</string>
+    </void>
+    <void property="value">
+     <string>4</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y2Cm</string>
+    </void>
+    <void property="value">
+     <string>22.78</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y2Lm</string>
+    </void>
+    <void property="value">
+     <string>7.73</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y2Rm</string>
+    </void>
+    <void property="value">
+     <string>9.95</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y2Cc</string>
+    </void>
+    <void property="value">
+     <string>4</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y3Cm</string>
+    </void>
+    <void property="value">
+     <string>23.89</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y3Lm</string>
+    </void>
+    <void property="value">
+     <string>7.37</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y3Rm</string>
+    </void>
+    <void property="value">
+     <string>6.02</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y3Cc</string>
+    </void>
+    <void property="value">
+     <string>4</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y4Cm</string>
+    </void>
+    <void property="value">
+     <string>22.66</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y4Lm</string>
+    </void>
+    <void property="value">
+     <string>7.77</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y4Rm</string>
+    </void>
+    <void property="value">
+     <string>7.34</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Y4Cc</string>
+    </void>
+    <void property="value">
+     <string>4</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>FStart</string>
+    </void>
+    <void property="value">
+     <string>11991000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>FEnd</string>
+    </void>
+    <void property="value">
+     <string>11999900</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>Finc</string>
+    </void>
+    <void property="value">
+     <string>10</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>ZINREAL</string>
+    </void>
+    <void property="value">
+     <string>230</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>ZINIMAG</string>
+    </void>
+    <void property="value">
+     <string></string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>ZOUTREAL</string>
+    </void>
+    <void property="value">
+     <string>230</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.SerializeDataSet">
+    <void property="type">
+     <string>ZOUTIMAG</string>
+    </void>
+    <void property="value">
+     <string></string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

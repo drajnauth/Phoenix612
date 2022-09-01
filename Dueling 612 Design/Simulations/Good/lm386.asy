@@ -1,0 +1,45 @@
+Version 4
+SymbolType CELL
+LINE Normal -64 -63 64 0
+LINE Normal -64 65 64 0
+LINE Normal -64 -63 -64 65
+LINE Normal -60 -48 -52 -48
+LINE Normal -60 48 -52 48
+LINE Normal -56 52 -56 44
+LINE Normal -48 -80 -48 -55
+LINE Normal -48 80 -48 57
+LINE Normal -44 -68 -36 -68
+LINE Normal -40 -72 -40 -64
+LINE Normal -44 68 -36 68
+LINE Normal -16 -39 -16 -64
+LINE Normal 0 32 0 48
+LINE Normal 48 -8 48 -32
+SYMATTR Value LM386
+SYMATTR Prefix X
+SYMATTR ModelFile LM386.sub
+SYMATTR Value2 LM386
+SYMATTR Description Low power audio amplifier
+PIN -16 -64 LEFT 8
+PINATTR PinName g1
+PINATTR SpiceOrder 1
+PIN -64 -48 NONE 0
+PINATTR PinName In-
+PINATTR SpiceOrder 2
+PIN -64 48 NONE 0
+PINATTR PinName In+
+PINATTR SpiceOrder 3
+PIN -48 80 NONE 0
+PINATTR PinName V-
+PINATTR SpiceOrder 4
+PIN 64 0 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
+PIN -48 -80 NONE 0
+PINATTR PinName V+
+PINATTR SpiceOrder 6
+PIN 0 48 LEFT 8
+PINATTR PinName bp
+PINATTR SpiceOrder 7
+PIN 48 -32 LEFT 8
+PINATTR PinName g8
+PINATTR SpiceOrder 8
