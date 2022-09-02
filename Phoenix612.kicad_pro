@@ -422,6 +422,10 @@
     [
       "dc491928-6d5e-4329-9950-71e9e29055f8",
       "IF Mixer and Filter"
+    ],
+    [
+      "8c2d0e49-feb1-4ca1-b655-1da709313a1f",
+      "AF Amp"
     ]
   ],
   "text_variables": {}
