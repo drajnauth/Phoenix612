@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -400,7 +400,6 @@
         "name": "Power",
         "nets": [
           "12V",
-          "8V",
           "RX12V",
           "RX5V",
           "TX12V"
@@ -414,7 +413,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 1.0,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -423,7 +422,6 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "nets": [
-          "ANT_IN",
           "ANT_OUT",
           "IFPAOUT",
           "IFRFIN",
@@ -431,7 +429,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.35,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -523,6 +521,14 @@
     [
       "30c6c28a-4790-4945-ab5d-741471566322",
       "Ant Switch Sheet"
+    ],
+    [
+      "af2fe456-243d-4f9d-9d57-41ad77d64536",
+      "PA Preamp"
+    ],
+    [
+      "f4b9ba30-c5ef-48e5-9568-0139198f157d",
+      "Power Amp"
     ]
   ],
   "text_variables": {}
