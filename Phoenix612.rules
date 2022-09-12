@@ -11,37 +11,37 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3341)
+    (start_pass_no 3)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.7)
+      (against_preferred_direction_trace_costs 2.4)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 1.7)
     )
   )
   (rule
     (width 250.0)
-    (clear 200.2)
+    (clear 200.0)
     (clear 125.0 (type smd_to_turn_gap))
-    (clear 500.2 (type default_Power))
-    (clear 500.2 (type default_RF))
-    (clear 50.0 (type smd_smd))
-    (clear 500.2 (type smd_Power))
-    (clear 500.2 (type smd_RF))
-    (clear 500.2 (type "kicad_default"_Power))
-    (clear 500.2 (type "kicad_default"_RF))
-    (clear 150.2 (type Ground_Ground))
-    (clear 500.2 (type Ground_Power))
-    (clear 500.2 (type Ground_RF))
-    (clear 500.2 (type Power_Power))
-    (clear 500.2 (type Power_RF))
-    (clear 500.2 (type RF_RF))
+    (clear 500.0 (type default-Power))
+    (clear 500.0 (type default-RF))
+    (clear 50.0 (type smd-smd))
+    (clear 500.0 (type smd-Power))
+    (clear 500.0 (type smd-RF))
+    (clear 500.0 (type "kicad_default"-Power))
+    (clear 500.0 (type "kicad_default"-RF))
+    (clear 150.0 (type Ground-Ground))
+    (clear 500.0 (type Ground-Power))
+    (clear 500.0 (type Ground-RF))
+    (clear 500.0 (type Power-Power))
+    (clear 500.0 (type Power-RF))
+    (clear 500.0 (type RF-RF))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -96,7 +96,9 @@
     "Net-(C39-Pad1)" "Net-(C41-Pad2)" "Net-(C42-Pad1)" "Net-(C45-Pad2)" "Net-(C48-Pad1)" "Net-(C52-Pad1)" "Net-(C53-Pad2)" TX5V
     "Net-(C60-Pad1)" "Net-(C60-Pad2)" "Net-(C61-Pad1)" "Net-(C62-Pad1)" "Net-(C63-Pad1)" "Net-(C64-Pad2)" "Net-(C65-Pad1)" "Net-(C66-Pad1)"
     "Net-(C66-Pad2)" "Net-(C67-Pad1)" "Net-(C69-Pad1)" "Net-(R3-Pad1)" "Net-(R42-Pad1)" "Net-(R44-Pad1)" "Net-(R44-Pad2)" "Net-(R45-Pad2)"
-    "Net-(R46-Pad1)" "Net-(R47-Pad1)" "Net-(R47-Pad2)" "PA_IN" "Net-(T6-Pad2)"
+    "Net-(R46-Pad1)" "Net-(R47-Pad1)" "Net-(R47-Pad2)" "PA_IN" "Net-(T6-Pad2)" "Net-(C74-Pad2)" "Net-(C76-Pad1)" "Net-(C76-Pad2)"
+    "Net-(C77-Pad1)" "Net-(C79-Pad2)" "Net-(C80-Pad1)" "Net-(C81-Pad1)" "Net-(C84-Pad1)" "Net-(C85-Pad1)" "Net-(C85-Pad2)" "Net-(Q4-Pad1)"
+    "Net-(Q5-Pad2)" "Net-(J31-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -108,7 +110,7 @@
   )
   (class "kicad_default"
     (clearance_class "kicad_default")
-    (via_rule kicad_default)
+    (via_rule "kicad_default")
     (rule
       (width 250.0)
     )
