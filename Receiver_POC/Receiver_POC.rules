@@ -1,0 +1,124 @@
+
+(rules PCB Receiver_POC
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 400.0 (type default-RF))
+    (clear 300.0 (type default-VCC))
+    (clear 50.0 (type smd-smd))
+    (clear 400.0 (type smd-RF))
+    (clear 300.0 (type smd-VCC))
+    (clear 400.0 (type "kicad_default"-RF))
+    (clear 300.0 (type "kicad_default"-VCC))
+    (clear 400.0 (type RF-RF))
+    (clear 400.0 (type RF-VCC))
+    (clear 300.0 (type VCC-VCC))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-RF" "Via[0-1]_800:400_um" RF
+  )
+  (via 
+    "Via[0-1]_800:400_um-VCC" "Via[0-1]_800:400_um" VCC
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    RF "Via[0-1]_800:400_um-RF"
+  )
+  (via_rule
+    VCC "Via[0-1]_800:400_um-VCC"
+  )
+  (class default
+    GND "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C10-Pad1)" "Net-(C11-Pad1)" "Net-(C12-Pad1)" "Net-(C12-Pad2)"
+    "Net-(C15-Pad1)" "Net-(C16-Pad1)" "Net-(C19-Pad1)" "Net-(C20-Pad1)" "Net-(C21-Pad1)" "Net-(C21-Pad2)" "Net-(C23-Pad1)" "Net-(C24-Pad1)"
+    IFAFOUT "Net-(L1-Pad2)" "Net-(L2-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(R8-Pad2)" "Net-(R9-Pad2)"
+    "Net-(C1-Pad2)" "Net-(C4-Pad1)" "Net-(C4-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad1)"
+    "Net-(C13-Pad1)" "Net-(C13-Pad2)" "Net-(C14-Pad1)" "Net-(C19-Pad2)" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(R10-Pad1)" "Net-(R11-Pad1)"
+    "Net-(R11-Pad2)" "Net-(R12-Pad2)" "Net-(RV1-Pad2)" "Net-(RV2-Pad2)" "unconnected-(U1-Pad4)" "unconnected-(U1-Pad7)" "unconnected-(U2-Pad4)" "unconnected-(U2-Pad7)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class RF
+    IFRFIN
+    (clearance_class RF)
+    (via_rule RF)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class VCC
+    RX5V 12V
+    (clearance_class VCC)
+    (via_rule VCC)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
