@@ -1,0 +1,154 @@
+
+(rules PCB Phoenix612
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 500.0 (type default-Power))
+    (clear 500.0 (type default-RF))
+    (clear 50.0 (type smd-smd))
+    (clear 500.0 (type smd-Power))
+    (clear 500.0 (type smd-RF))
+    (clear 500.0 (type "kicad_default"-Power))
+    (clear 500.0 (type "kicad_default"-RF))
+    (clear 150.0 (type Ground-Ground))
+    (clear 500.0 (type Ground-Power))
+    (clear 500.0 (type Ground-RF))
+    (clear 500.0 (type Power-Power))
+    (clear 500.0 (type Power-RF))
+    (clear 500.0 (type RF-RF))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Ground" "Via[0-1]_800:400_um" Ground
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via 
+    "Via[0-1]_800:400_um-RF" "Via[0-1]_800:400_um" RF
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Ground "Via[0-1]_800:400_um-Ground"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (via_rule
+    RF "Via[0-1]_800:400_um-RF"
+  )
+  (class default
+    "Net-(R9-Pad2)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(R5-Pad1)" "Net-(R5-Pad2)" "Net-(R6-Pad2)"
+    "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(R8-Pad2)" "Net-(47u1-Pad1)" "Net-(47u1-Pad2)" "Net-(C9-Pad1)" "Net-(C10-Pad1)" "Net-(C11-Pad1)"
+    "Net-(C15-Pad1)" "Net-(C15-Pad2)" "Net-(C16-Pad1)" "Net-(C17-Pad1)" "Net-(C18-Pad1)" "Net-(C19-Pad1)" "Net-(C20-Pad1)" "Net-(C20-Pad2)"
+    "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" "Net-(C27-Pad1)" IFMICIN "Net-(C28-Pad1)" IFAFOUT "Net-(L1-Pad2)"
+    "Net-(L2-Pad2)" "Net-(T1-Pad4)" "Net-(C46-Pad1)" "unconnected-(U3-Pad4)" "unconnected-(U3-Pad7)" "unconnected-(U4-Pad4)" "unconnected-(U4-Pad7)" "Net-(C30-Pad2)"
+    "Net-(C31-Pad1)" SMeterIN "Net-(C34-Pad1)" "Net-(C35-Pad1)" "Net-(C39-Pad2)" "Net-(RV3-Pad2)" "Net-(C40-Pad2)" "Net-(C44-Pad1)"
+    "Net-(C44-Pad2)" "Net-(C45-Pad1)" "Net-(RV4-Pad2)" "unconnected-(U6-Pad7)" "Net-(C47-Pad1)" "Net-(C51-Pad1)" "Net-(C51-Pad2)" "Net-(C52-Pad2)"
+    "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" "Net-(D7-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(J8-Pad1)" "Net-(Q3-Pad2)"
+    "Net-(J9-Pad1)" "Net-(J10-Pad1)" "Net-(J11-Pad1)" "Net-(C5-Pad1)" "Net-(C12-Pad1)" "Net-(C12-Pad2)" "Net-(C16-Pad2)" "Net-(C21-Pad2)"
+    "Net-(C24-Pad1)" "Net-(C24-Pad2)" "Net-(C27-Pad2)" "Net-(C29-Pad1)" "Net-(C31-Pad2)" "Net-(C32-Pad1)" "Net-(C36-Pad1)" "Net-(C36-Pad2)"
+    "Net-(C39-Pad1)" "Net-(C41-Pad2)" "Net-(C42-Pad1)" "Net-(C45-Pad2)" "Net-(C48-Pad1)" "Net-(C52-Pad1)" "Net-(C53-Pad2)" TX5V
+    "Net-(C60-Pad1)" "Net-(C60-Pad2)" "Net-(C61-Pad1)" "Net-(C62-Pad1)" "Net-(C63-Pad1)" "Net-(C64-Pad2)" "Net-(C65-Pad1)" "Net-(C66-Pad1)"
+    "Net-(C66-Pad2)" "Net-(C67-Pad1)" "Net-(C69-Pad1)" "Net-(R3-Pad1)" "Net-(R42-Pad1)" "Net-(R44-Pad1)" "Net-(R44-Pad2)" "Net-(R45-Pad2)"
+    "Net-(R46-Pad1)" "Net-(R47-Pad1)" "Net-(R47-Pad2)" "PA_IN" "Net-(T6-Pad2)" "Net-(C74-Pad2)" "Net-(C76-Pad1)" "Net-(C76-Pad2)"
+    "Net-(C77-Pad1)" "Net-(C79-Pad2)" "Net-(C80-Pad1)" "Net-(C81-Pad1)" "Net-(C84-Pad1)" "Net-(C85-Pad1)" "Net-(C85-Pad2)" "Net-(Q4-Pad1)"
+    "Net-(Q5-Pad2)" "Net-(J31-Pad1)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Ground
+    GND
+    (clearance_class Ground)
+    (via_rule Ground)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    RX5V TX12V RX12V 12V
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class RF
+    IFRFIN IFPAOUT "ANT_OUT" "PA_OUT"
+    (clearance_class RF)
+    (via_rule RF)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
