@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Phoenix612 Complete v1.kicad_pro",
+    "filename": "Phoenix612 Complete (PCB) v1.kicad_pro.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -400,8 +400,8 @@
         "name": "Power",
         "nets": [
           "12V",
+          "5V",
           "RX12V",
-          "RX5V",
           "TX12V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -422,9 +422,12 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "nets": [
+          "ANT",
           "ANT_OUT",
           "IFPAOUT",
           "IFRFIN",
+          "PA_DRIVER_IN",
+          "PA_IN",
           "PA_OUT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -499,40 +502,36 @@
       "RF_AMP"
     ],
     [
-      "dc491928-6d5e-4329-9950-71e9e29055f8",
-      "IF Mixer and Filter"
+      "f41cfc14-3798-49af-aac9-12db59c92150",
+      "Power Supply"
     ],
     [
-      "8c2d0e49-feb1-4ca1-b655-1da709313a1f",
-      "AF Amp"
+      "d0cc8f58-fbb9-405a-9672-436f64e1806a",
+      "IF_Stage"
     ],
     [
-      "dcd40ead-2b46-471f-8102-2c01488e6959",
-      "Smeter Sheet"
+      "3e801601-9ad4-45f4-97c0-eee4984c5c03",
+      "AF_Amp"
     ],
     [
-      "fca0583b-d9ec-492a-b393-7aa22a35eadd",
-      "MicPreamp Sheet"
+      "9100bc6f-6ca1-490f-aafa-a17a060c6b40",
+      "MicPreamp"
     ],
     [
-      "1c2e7267-2bc4-45e2-87be-34403465b4fd",
-      "Power Supply Sheet"
+      "ab88989b-0744-4e5f-9dcc-8103d8b758a3",
+      "PA_Preamp"
     ],
     [
-      "30c6c28a-4790-4945-ab5d-741471566322",
-      "Ant Switch Sheet"
-    ],
-    [
-      "af2fe456-243d-4f9d-9d57-41ad77d64536",
-      "PA Preamp"
-    ],
-    [
-      "f4b9ba30-c5ef-48e5-9568-0139198f157d",
-      "Power Amp"
-    ],
-    [
-      "5eadce57-96e4-4ec1-a4f1-33d0b3a0781f",
+      "e45b351a-39ef-4464-8fb2-3856d31a751d",
       "PA_Driver"
+    ],
+    [
+      "3ba7f130-1765-47e5-8498-c5bcac56e956",
+      "PowerAmp"
+    ],
+    [
+      "5ca12906-75ba-4c8f-babb-8e16984a6f43",
+      "AntSwitch"
     ]
   ],
   "text_variables": {}
