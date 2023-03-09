@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Phoenix612 Complete v1.kicad_pro.kicad_pro",
+    "filename": "Phoenix612 Complete v1.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -401,6 +401,7 @@
         "nets": [
           "12V",
           "5V",
+          "M2_12V",
           "RX12V",
           "TX12V"
         ],
@@ -426,6 +427,10 @@
           "ANT_OUT",
           "IFPAOUT",
           "IFRFIN",
+          "Net-(C77-Pad1)",
+          "Net-(C77-Pad2)",
+          "Net-(J20-Pad1)",
+          "Net-(J20-Pad2)",
           "PA_DRIVER_IN",
           "PA_IN",
           "PA_OUT"
