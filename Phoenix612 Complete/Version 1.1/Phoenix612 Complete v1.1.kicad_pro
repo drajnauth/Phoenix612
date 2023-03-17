@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 1.0
+          "height": 5.7,
+          "width": 5.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -403,7 +403,8 @@
           "5V",
           "M2_12V",
           "RX12V",
-          "TX12V"
+          "TX12V",
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
