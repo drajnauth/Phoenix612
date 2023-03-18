@@ -428,10 +428,6 @@
           "ANT_OUT",
           "IFPAOUT",
           "IFRFIN",
-          "Net-(C77-Pad1)",
-          "Net-(C77-Pad2)",
-          "Net-(J20-Pad1)",
-          "Net-(J20-Pad2)",
           "PA_DRIVER_IN",
           "PA_IN",
           "PA_OUT"
