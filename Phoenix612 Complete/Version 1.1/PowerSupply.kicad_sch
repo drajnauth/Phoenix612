@@ -1621,7 +1621,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 333b52e8-096f-4d03-8ac3-0a8b9628c70b)
     (property "Reference" "J4" (id 0) (at 55.245 45.72 0))
-    (property "Value" "VCC" (id 1) (at 55.245 48.26 0))
+    (property "Value" "PWR" (id 1) (at 55.245 48.26 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal" (id 2) (at 56.515 56.261 0)
       (effects (font (size 1.27 1.27)) hide)
     )
