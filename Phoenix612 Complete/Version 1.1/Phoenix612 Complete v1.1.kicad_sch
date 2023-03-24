@@ -1162,6 +1162,12 @@
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/7e643b73-8403-484a-a877-71b4cf3390bb"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3e801601-9ad4-45f4-97c0-eee4984c5c03/e8214052-9dd8-49a0-8de7-7fc689e01bb8"
+      (reference "AFG1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+    )
+    (path "/3ba7f130-1765-47e5-8498-c5bcac56e956/3a4bb7e1-20bd-4951-9c68-26c5b8a5ea89"
+      (reference "BS1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+    )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/0c9f0e84-c3db-485c-a06a-351786b5713d"
       (reference "C1") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -1765,6 +1771,12 @@
     (path "/fe038268-a935-4408-8c71-d56854234f7d/060db108-47bb-44b3-8fd3-d1fa56231f45"
       (reference "L16") (unit 1) (value "20u") (footprint "Inductor_SMD:L_1206_3216Metric")
     )
+    (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/d784d267-1030-4d4f-b809-b1c6e4c5c94f"
+      (reference "L17") (unit 1) (value "20u") (footprint "Inductor_SMD:L_1206_3216Metric")
+    )
+    (path "/9100bc6f-6ca1-490f-aafa-a17a060c6b40/c1017d11-e687-4787-b4ed-d78da54ffbc2"
+      (reference "MG1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+    )
     (path "/f41cfc14-3798-49af-aac9-12db59c92150/e9999338-655a-4f71-bdbb-01c466670fa2"
       (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
@@ -2005,26 +2017,20 @@
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/e870d2d1-0ab2-455c-a1ea-a967ee46e9f9"
       (reference "R76") (unit 1) (value "50R") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
+    (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/ba97968c-8973-4553-8025-e0864a9c3a36"
+      (reference "R77") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/220fde98-84da-4b18-b1bd-70bdfbb85937"
+      (reference "R78") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/bb00445e-fee4-4513-a100-7e56d2123b13"
-      (reference "RV1") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "RFG1") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/6786a57d-4e96-4860-b2e8-4e4c7ea8c848"
-      (reference "RV2") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
-    )
-    (path "/3e801601-9ad4-45f4-97c0-eee4984c5c03/e8214052-9dd8-49a0-8de7-7fc689e01bb8"
-      (reference "RV3") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
-    )
-    (path "/9100bc6f-6ca1-490f-aafa-a17a060c6b40/c1017d11-e687-4787-b4ed-d78da54ffbc2"
-      (reference "RV4") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
-    )
-    (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/ce9bc1ac-c878-4d81-84b9-b5e95d2f7529"
-      (reference "RV5") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
-    )
-    (path "/3ba7f130-1765-47e5-8498-c5bcac56e956/3a4bb7e1-20bd-4951-9c68-26c5b8a5ea89"
-      (reference "RV6") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "RFG2") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/fe038268-a935-4408-8c71-d56854234f7d/9969a8a9-f419-410d-8441-43277a9a5f2f"
-      (reference "RV7") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "SMC1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/9bd468ef-4320-4199-93b4-1b3ba27f0dc6"
       (reference "T1") (unit 1) (value "FT50-75 (18:7)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
@@ -2046,6 +2052,9 @@
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/e3b3c088-eb50-4c3c-8d21-d870ff5f519a"
       (reference "TR2") (unit 1) (value "T50-22:4") (footprint "Custom_RF:T50-1Tap-Close")
+    )
+    (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/ce9bc1ac-c878-4d81-84b9-b5e95d2f7529"
+      (reference "TXG1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/f2c3e3c0-3748-4f05-8690-614d4130c94b"
       (reference "U1") (unit 1) (value "LT1253") (footprint "Package_DIP:DIP-8_W7.62mm")
