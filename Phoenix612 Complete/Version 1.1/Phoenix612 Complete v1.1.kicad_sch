@@ -1208,7 +1208,7 @@
       (reference "C13") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/f41cfc14-3798-49af-aac9-12db59c92150/b2f300c0-6400-40d8-8ff7-5e217ee52762"
-      (reference "C14") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C14") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/61eb6df4-989c-4383-8620-351031156705"
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -1505,7 +1505,7 @@
       (reference "D11") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/fe038268-a935-4408-8c71-d56854234f7d/80735ac9-0ef1-4d23-b700-0b4d320e42ab"
-      (reference "D12") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D12") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/a59f49d2-a514-4fd3-bfbe-4a4d9039ed8c"
       (reference "G1") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -1796,16 +1796,16 @@
       (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/1b6a777c-221a-4332-a2ab-6eaafb66b386"
-      (reference "R3") (unit 1) (value "51R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R3") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/45b52bd3-c9db-4901-8a43-1895fe16249f"
-      (reference "R4") (unit 1) (value "200R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R4") (unit 1) (value "200") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/d7542eb1-7bd8-4fb7-985b-e5431bee61d2"
-      (reference "R5") (unit 1) (value "200R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R5") (unit 1) (value "200") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/455048c4-ed2b-4521-ba1a-94f88d1b9482"
-      (reference "R6") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R6") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/30e3f2b2-7b18-4898-823e-45c1148816b7"
       (reference "R7") (unit 1) (value "620") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -1832,7 +1832,7 @@
       (reference "R14") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/f41cfc14-3798-49af-aac9-12db59c92150/a2f3917b-5bd6-4902-9164-07addf17005d"
-      (reference "R15") (unit 1) (value "5K") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R15") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/42b6946e-90e6-41f3-b7a8-f3f709f92af9"
       (reference "R16") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -1859,7 +1859,7 @@
       (reference "R23") (unit 1) (value "60") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/ee5bb9a1-7db8-44da-bddd-a0ac4d3b7605"
-      (reference "R24") (unit 1) (value "100R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R24") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/546a5a40-b29a-44a7-969e-c7bbba6373a2"
       (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -1901,10 +1901,10 @@
       (reference "R37") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/9100bc6f-6ca1-490f-aafa-a17a060c6b40/1515e580-404a-4305-b29a-be6c6997b305"
-      (reference "R38") (unit 1) (value "220") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R38") (unit 1) (value "220K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/9100bc6f-6ca1-490f-aafa-a17a060c6b40/3eab2a45-07cb-4cb8-9426-6e691d9c243b"
-      (reference "R39") (unit 1) (value "10R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R39") (unit 1) (value "10") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/7df59e42-5556-42aa-961d-9a705665da6b"
       (reference "R40") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -1925,7 +1925,7 @@
       (reference "R45") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/e45b351a-39ef-4464-8fb2-3856d31a751d/cab0f0ff-8bd3-4a41-b859-63b5e4ba1674"
-      (reference "R46") (unit 1) (value "5.6R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R46") (unit 1) (value "5.6") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/e45b351a-39ef-4464-8fb2-3856d31a751d/6cb5b1da-0fe6-4504-b3e7-608cb8acb012"
       (reference "R47") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -1934,7 +1934,7 @@
       (reference "R48") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/e45b351a-39ef-4464-8fb2-3856d31a751d/3411b1dd-4e3e-493e-84ba-b053dbbe8163"
-      (reference "R49") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R49") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/e45b351a-39ef-4464-8fb2-3856d31a751d/d537b3af-8f25-4833-ad05-ee43808c7bee"
       (reference "R50") (unit 1) (value "1K") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -2015,13 +2015,13 @@
       (reference "R75") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/e870d2d1-0ab2-455c-a1ea-a967ee46e9f9"
-      (reference "R76") (unit 1) (value "50R") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R76") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/ba97968c-8973-4553-8025-e0864a9c3a36"
-      (reference "R77") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R77") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/220fde98-84da-4b18-b1bd-70bdfbb85937"
-      (reference "R78") (unit 1) (value "50") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R78") (unit 1) (value "51") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/bb00445e-fee4-4513-a100-7e56d2123b13"
       (reference "RFG1") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
@@ -2033,10 +2033,10 @@
       (reference "SMC1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/9bd468ef-4320-4199-93b4-1b3ba27f0dc6"
-      (reference "T1") (unit 1) (value "FT50-75 (18:7)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
+      (reference "T1") (unit 1) (value "FT50-43 (18:7)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
     )
     (path "/d0cc8f58-fbb9-405a-9672-436f64e1806a/c0932f74-e340-42ea-890b-b68fa666cb45"
-      (reference "T2") (unit 1) (value "FT50-75 (7:18)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
+      (reference "T2") (unit 1) (value "FT50-43 (7:18)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
     )
     (path "/3ba7f130-1765-47e5-8498-c5bcac56e956/95697291-092d-4409-a030-a04f26f154a8"
       (reference "T3") (unit 1) (value "FT37-43 1:4") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D10.5mm_Amidon-T37")
@@ -2048,13 +2048,13 @@
       (reference "T5") (unit 1) (value "FT37-43 (1:10)") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/ed7a11bc-ee61-409f-8fe9-d68091e7e211"
-      (reference "TR1") (unit 1) (value "T50-22:4") (footprint "Custom_RF:T50-1Tap-Close")
+      (reference "TR1") (unit 1) (value "T50-75 (22:4)") (footprint "Custom_RF:T50-1Tap-Close")
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/e3b3c088-eb50-4c3c-8d21-d870ff5f519a"
-      (reference "TR2") (unit 1) (value "T50-22:4") (footprint "Custom_RF:T50-1Tap-Close")
+      (reference "TR2") (unit 1) (value "T50-43 (22:4)") (footprint "Custom_RF:T50-1Tap-Close")
     )
     (path "/ab88989b-0744-4e5f-9dcc-8103d8b758a3/ce9bc1ac-c878-4d81-84b9-b5e95d2f7529"
-      (reference "TXG1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "TXG1") (unit 1) (value "1K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/7d624223-b511-4648-87bb-11892eb59d0f/f2c3e3c0-3748-4f05-8690-614d4130c94b"
       (reference "U1") (unit 1) (value "LT1253") (footprint "Package_DIP:DIP-8_W7.62mm")
